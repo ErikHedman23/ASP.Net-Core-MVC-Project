@@ -18,5 +18,28 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #0A4ABF;
+    
+}
+
+* {
+    font-family: "Futura", sans-serif;
+}
+.BestBuyLogo {
+    max-width: 200px;
+    max-height: 200px;
+}
+.display-4 {
+    color: #FFED31;
+}
+.HomeParagraphs {
+    color: #1C252C;
+}
+header {
+    background-color: #1C252C;
+}
+
+.table {
+    color: #FFED31;
 }
