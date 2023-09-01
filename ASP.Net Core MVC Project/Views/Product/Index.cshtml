@@ -23,7 +23,15 @@
             <td>@product.Name</td>
             <td>@product.Price</td>
             <td>@product.CategoryID</td>
-            <td>@product.OnSale</td>
+            @* @if(product.OnSale == 1)
+            {
+                <td>Yes</td>
+            }
+            else
+            {
+                <td>No</td>
+            } *@
+            <td>@(product.OnSale == 1 ? "Yes" : "No")</td>
             <td>@product.StockLevel</td>
         </tr>
     }
