@@ -19,16 +19,18 @@ html {
 
 body {
     margin-bottom: 60px;
+    /*background-image: url('https://wallpapers.com/images/hd/best-buy-blue-brand-logo-7eau2lv7trvej0oy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;*/
     background-color: #0A4ABF;
-    
 }
 
 * {
     font-family: "Futura", sans-serif;
 }
 .BestBuyLogo {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 250px;
+    max-height: 250px;
 }
 .display-4 {
     color: #FFED31;    
@@ -61,6 +63,6 @@ header {
     border: 1px solid #000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-#CreateProductTitle{
-
+#ProductIDNumber{
+    color: fuchsia;
 }
